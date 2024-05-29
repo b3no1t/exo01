@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Restaurant</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <header class="nav">
+          <div class="logo">
+            <img src="./assets/img/logo.png" alt="le logo du restaurant" />
+          </div>
+          <nav class="menu">
+            <ul>
+              <li>
+                <a class="menu__item menu__item--is-open" href="index.html"
+                  >home</a
+                >
+              </li>
+              <li><a class="menu__item" href="menu.html">Menu</a></li>
+              <li><a class="menu__item" href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+
+        <main class="content">
+          <h1 class="site__title">titre du site</h1>
+          <p class="site__description"></p>
+          <!-- Begin: Block cards -->
+          <ul class="cards">
+            <li>
+              <div class="card">
+                <img src="./assets/img/pizza.jpg" alt="photo d'une pizza" />
+                <div class="card__content">
+                  <h2>titre du plat</h2>
+                  <p class="card__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                    ducimus iusto, cum veniam inventore nisi reiciendis.
+                  </p>
+                  <div class="card__prix">22€</div>
+                  <a href="menu.html">+ Detail</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card">
+                <img src="./assets/img/pizza.jpg" alt="photo d'une pizza" />
+                <div class="card__content">
+                  <h2>titre du plat</h2>
+                  <p class="card__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                    ducimus iusto, cum veniam inventore nisi reiciendis.
+                  </p>
+                  <div class="card__prix">22€</div>
+                  <a href="menu.html">+ Detail</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card">
+                <img src="./assets/img/pizza.jpg" alt="photo d'une pizza" />
+                <div class="card__content">
+                  <h2>titre du plat</h2>
+                  <p class="card__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                    ducimus iusto, cum veniam inventore nisi reiciendis.
+                  </p>
+                  <div class="card__prix">22€</div>
+                  <a href="menu.html">+ Detail</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card">
+                <img src="./assets/img/pizza.jpg" alt="photo d'une pizza" />
+                <div class="card__content">
+                  <h2>titre du plat</h2>
+                  <p class="card__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                    ducimus iusto, cum veniam inventore nisi reiciendis.
+                  </p>
+                  <div class="card__prix">22€</div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <!-- End: Block cards -->
+          <!-- Begin table -->
+          <table class="matable">
+            <caption>
+              Titre du tableau
+            </caption>
+            <tr>
+              <th>header 1</th>
+              <th>header 2</th>
+              <th>header 3</th>
+              <th>header 4</th>
+            </tr>
+            <tr>
+              <td>cell 1</td>
+              <td>cell 2</td>
+              <td>cell 3</td>
+              <td>cell 4</td>
+            </tr>
+            <tr>
+              <td>cell a</td>
+              <td>cell b</td>
+              <td class="active">cell c</td>
+              <td>pas vide</td>
+            </tr>
+          </table>
+          <!-- End table -->
+        </main>
+        <footer>
+          <div class="exemple">
+            <label for="nom"
+              >Nom:
+              <input type="text" name="nom" value="input text" />
+            </label>
+
+            <label for="prenom"
+              >Prenom:
+              <input type="text" name="prenom" value="input text" />
+            </label>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

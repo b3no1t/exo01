@@ -1,0 +1,115 @@
+/* 
+le signe "*" correspond a selectionner toutes les class
+*/
+
+* {
+ font-family: 'Helvetica', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.wrapper{
+}
+.container{
+ width: 80vw; /* viewport width */
+ margin: 0 auto;
+}
+header.nav{
+ height: 250px;
+ display: flex;
+ flex-direction: column;
+}
+.logo{
+ /* centrer un element */
+ margin: 0 auto;
+ /* 
+ idem: 
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 0;
+ margin-bottom: 0; */
+}
+
+nav.menu{
+ width: 100%;
+}
+.menu__item{
+ font-size: 2rem;
+}
+.menu__item--is-open{
+ color: red;
+}
+nav.menu ul{
+ display: flex;
+ justify-content: space-around;
+
+}
+nav.menu ul li{
+ list-style: none;
+}
+.menu a{
+ text-decoration: none;
+}
+
+.site__title{
+ text-align: center;
+}
+/* 
+CARDS
+________________________
+*/
+.cards{
+ list-style: none;
+ display: flex;
+ gap: 2rem;
+ margin-bottom: 4rem;
+}
+.card img{
+ max-width: 100%;
+}
+.card{
+ border-bottom: 2px solid;
+}
+
+.card__content{}
+.card__content h2{}
+.card__description{}
+.card__prix{}
+
+/* Table */
+.matable{
+ width: 100%;
+ padding: 2rem;
+ background-color: beige;
+}
+.matable .active{
+ color: aquamarine;
+}
+.matable th{
+ font-size: 2rem;
+}
+.matable td{
+ border: 1px solid red;
+}
+.matable tr{
+ background-color: red;
+}
+.matable td{
+ text-align: center;
+ background-color: orange;
+}
+.exemple{
+ display: flex;
+ flex-direction: column;
+}
+/* 
+Flex
+color
+background-color
+margin
+padding 
+border
+width: largeur
+min-width: 200Px 
+max-width: 500Px
+height: Hauteur
+max- ou min- 
+
+*/
